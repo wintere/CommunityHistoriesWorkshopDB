@@ -2,7 +2,7 @@
 A README and helper scripts for the access and generation of data from the Community Histories Workshop asylum records project.
 
 ## Setup
-The CHW database of Dix records is hosted by [OASIS](https://oasis.unc.edu/) at UNC. It can only be accessed from eduroam on campus or through the campus VPN. In order to install the UNC VPN client on your machine, follow the tutorial for your operating system (Mac, Windows, Linux) [here](https://oasis.unc.edu/systems-administration/).
+The CHW database of Dix records is hosted by [OASIS](https://oasis.unc.edu/) at UNC. It can only be accessed from eduroam on campus or through the campus VPN. In order to install the UNC VPN client on your machine, follow the tutorial for your operating system (Mac, Windows, Ubuntu) [here](https://oasis.unc.edu/systems-administration/).
 
 Once the client is installed, login to the VPN using your Onyen to the UNCCampus group and proceed to one of the two access methods below. You will need to make sure you're connected to the campus VPN each time you access the database, regardless of which access method you choose.
 
