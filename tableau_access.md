@@ -22,4 +22,4 @@ In order to factor the extremely complex and sparse data in the admissions ledge
 
 ## Troubleshooting ##
 
-Email ewinter so I can help fix the problem and add it to this tutorial.
+Email my UNC account (ewinter) so I can help fix the problem and add it to this tutorial.
