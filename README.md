@@ -6,7 +6,8 @@ The CHW database of Dix records is hosted by [OASIS](https://oasis.unc.edu/) at 
 
 Once the client is installed, login to the VPN using your Onyen to the UNCCampus group and proceed to one of the two access methods below. You will need to make sure you're connected to the campus VPN each time you access the database, regardless of which access method you choose.
 
-![image](https://user-images.githubusercontent.com/7553742/143791169-6589dca3-934d-456e-af0f-31c26b0b4dba.png)
+![image](https://user-images.githubusercontent.com/7553742/143873814-9257f1ae-2008-4831-b9bd-a94da0ec1f42.png)
+
 
 
 ## Decide How You Would Like to Access The Database
