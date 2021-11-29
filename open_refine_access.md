@@ -61,5 +61,6 @@ Once you are satisfied with your query preview, select the *Create Project* butt
 **NOTE: Any changes you make to the data here are local and *will not* change the contents of the data as stored in the database. Please reach out to the database admins if you would like to make corrections to transcribed fields.**
 
 ## Troubleshooting ##
-
-Let's see what errors people run into.
+1. Is your UNC VPN connected? If not, connect it.
+2. Is Java installed? If not, install it.
+3. Other new errors to be reported and added!
