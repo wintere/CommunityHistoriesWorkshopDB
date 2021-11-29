@@ -56,7 +56,9 @@ To adjust your query or query something else, select the *Start Over* button at 
 ![image](https://user-images.githubusercontent.com/7553742/143795405-a3f28e60-a630-47f6-bad9-c081774de778.png)
 
 
-Once you are satisfied with your query preview, select the *Create Project* button at the top right. You should now be able to sort, scroll, and explore the resulting data. **NOTE: Any changes you make to the data here are local and *will not* change the contents of the data as stored in the database. Please reach out to the database admins if you would like to make corrections to transcribed fields.**
+Once you are satisfied with your query preview, select the *Create Project* button at the top right. You should now be able to sort, scroll, and explore the resulting data. 
+
+**NOTE: Any changes you make to the data here are local and *will not* change the contents of the data as stored in the database. Please reach out to the database admins if you would like to make corrections to transcribed fields.**
 
 ## Troubleshooting ##
 
