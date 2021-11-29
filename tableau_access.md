@@ -22,9 +22,28 @@ In order to factor the extremely complex and sparse data in the admissions ledge
 
 We recommend you access the data in Tableau using one of the *.twb* connection files in this repository. Download your connection file of choice from GitHub and proceed.
 
+*DixDatabaseOASISConnCombinedDatasetsSimpleData.twb*<br>
+This sample workbook contains a simplified view of the data in the database, with columns related to the transcription process removed. **RECOMMENDED**
 
+*DixDatabaseOASISConnCombinedDatasetsFullData.twb*<br>
+This sample workbook contains all view with all fields in the database.
 
+After clicking a *.twb* file, Tableau should open and prompt you for a connection password.
+Supply the username and password provided in your email or stored in the CHW Sharepoint drive.
 
+![image](https://user-images.githubusercontent.com/7553742/143803991-ae519350-02a3-4a47-ad46-6e77d3927d2e.png)
+
+The query will could take up to a minute to execute given the size of the data.
+
+When it finishes, Tableau should open to a workbook with a sample visualization. Have fun!
+
+Keep in mind that this dataset is fundamentally sparse, sometimes illegible, and in places incomplete. Just because a visualization looks nice -- something Tableau is good at -- doesn't mean the visualization correlated with the quantitative truth of the database, much less the historical truth we have pieces of at best.
+
+## Learning About Relational Databases and Tableau ##
+
+If you would like to learn more about relational databases and SQL in a classroom setting, I would recommend SILS students enroll in INLS 523: Introduction to Database Concepts.  
+
+If you have background knowledge of databases but are new to Tableau, Tableau has [a guide for exploring the newly connected data](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-drag.htm).
 
 ## Troubleshooting ##
 
