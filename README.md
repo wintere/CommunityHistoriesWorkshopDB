@@ -10,5 +10,5 @@ Once the client is installed, login to the VPN using your Onyen to the UNCCampus
 
 
 ## Decide How You Would Like to Access The Database
-1. If you would like to examine the database for purposes of data cleaning, browsing, or for performing SQL queries, we recommend using OpenRefine to access the database using the following tutorial.
+1. If you would like to examine the database for purposes of data cleaning, browsing, or for performing SQL queries, we recommend using OpenRefine to access the database [using the following tutorial.](https://github.com/wintere/CommunityHistoriesWorkshopDB/blob/main/open_refine_access.md)
 2. If you would like to use the database create visualizations, we recommend using the Tableau connector to access the data through Tableau using the following tutorial.
