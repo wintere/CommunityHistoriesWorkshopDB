@@ -18,7 +18,13 @@ Follow the driver installation instructions, then proceed.
 
 ## Select a Connection File ##
 
-In order to factor the extremely complex and sparse data in the admissions ledger and especially the general casebook into many-to-many and many-to-one relationships that express the loosely structed source data, the data has been broken into severa
+In order to factor the extremely complex and sparse data in the admissions ledger and especially the general casebook into many-to-many and many-to-one relationships that express the loosely structed source data, the data has been broken into several tables. The relationships between tables have been carefully organized in Tableau and saved into a file by Nate.
+
+We recommend you access the data in Tableau using one of the *.twb* connection files in this repository. Download your connection file of choice from GitHub and proceed.
+
+
+
+
 
 ## Troubleshooting ##
 
