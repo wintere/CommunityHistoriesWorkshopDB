@@ -2,6 +2,8 @@
 
 Make sure you have the username and password for the _dixdbreadonly_ account on hand. They have been emailed to you with this version of the tutorial, but they will be stored in the UNC Sharepoint directory for the CHW project in the future.
 
+There are some limitations of accessing the database views like "all_data_main" or "all_data_main_simple" through OpenRefine. Multivalue fields like "Form of Insanity" are not compatible with the tool. 
+
 ## Installing and Starting OpenRefine ##
 
 First, [download OpenRefine](https://openrefine.org/download.html) to your computer by selecting the appropriate distribution for your operating system.
@@ -29,16 +31,18 @@ Populate each field as follows:
 - Password: This was provided to you via email and is part of the credentials on Sharepoint.
 - Database: The current production DB is *dix*.
  
+ Once you have entered this information, select *Test Connection*. If the connection test is successful, *Connect*.
+ 
 ## Querying the Database ##
 ![image](https://user-images.githubusercontent.com/7553742/143794223-dbc7e82f-c997-4a0d-821b-20e0e98ec132.png)
 
 Once you've successfully connected, you will be prompted to write a SQL query representing the table(s) and rows you would like to view. If you're new to SQL, I would start with a general query that selects all possible fields from one of the following tables:
 - admission_main: the entire transcribed contents of the admissions ledger CSV
-- admission_simple: the contents of the admissions ledger CSV with columns dedicated to tracking the transcription process, like the name of the person who transcribed each row removed. Recommended over *admission_main* for most uses.
+- admission_main_simple: the contents of the admissions ledger CSV with columns dedicated to tracking the transcription process, like the name of the person who transcribed each row removed. Recommended over *admission_main* for most uses.
 - general_case_book_main: the entire transcribed contents of the general casebook CSV
-- general_case_book_simple: the contents of the general casebook CSV with columns dedicated to tracking the transcription process, like the name of the person who transcribed each row removed. Recommended over *admission_main* for most uses.
+- general_case_book_main_simple: the contents of the general casebook CSV with columns dedicated to tracking the transcription process, like the name of the person who transcribed each row removed. Recommended over *admission_main* for most uses.
 - all_data_main: everything, the admissions ledger joined with the general casebook. **WARNING: This is quite large and will load slowly**
-- all_data_simple: *all_data_main* with transcription related fields removed.
+- all_data_main_simple: *all_data_main* with transcription related fields removed.
 
 For example, a query that selects all rows and columns from the simplified admissions ledger would look as follows.
 ```
@@ -63,4 +67,3 @@ Once you are satisfied with your query preview, select the *Create Project* butt
 ## Troubleshooting ##
 1. Is your UNC VPN connected? If not, connect it.
 2. Is Java installed? If not, install it.
-3. Other new errors to be reported and added!
