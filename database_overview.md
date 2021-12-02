@@ -15,13 +15,11 @@ What's in it?
   
 Where is it?  
 - On a campus server (with access limited to campus network)  
+- (it's a PostgreSQL database)
   
 How do I access it? 
 - Use a tool such as OpenRefine, Metabase, or Tableau to connect to the database
 - Connection/Access info is in SharePoint
-  
-What is it?  
-- A PostgreSQL database  
   
 Who can help me with it?
 - Email our campus accounts (ndnihart, ewinter)  
