@@ -20,7 +20,7 @@ Follow the driver installation instructions, then proceed.
 
 In order to factor the extremely complex and sparse data in the admissions ledger and especially the general casebook into many-to-many and many-to-one relationships that express the loosely structed source data, the data has been broken into several tables. The relationships between tables have been carefully organized in Tableau and saved into a file by Nate.
 
-We recommend you access the data in Tableau using one of the *.twb* connection files in this repository. Download your connection file of choice from GitHub by clicking and saving the links and proceed.
+We recommend you access the data in Tableau using one of the *.twb* connection files in this repository. Download your connection file of choice from GitHub by clicking and saving the .twb at the links below to your computer.
 
 <a href="https://raw.githubusercontent.com/wintere/CommunityHistoriesWorkshopDB/main/DixDatabaseOASISConnCombinedDatasetsSimpleData.twb" download />DixDatabaseOASISConnCombinedDatasetsSimpleData.twb</a>
 This sample workbook contains a simplified view of the data in the database, with columns related to the transcription process removed. **RECOMMENDED**
@@ -36,6 +36,8 @@ Supply the [username and password stored in the CHW SharePoint here](https://adm
 The query will could take up to a minute to execute given the size of the data.
 
 When it finishes, Tableau should open to a workbook with a sample visualization. Have fun!
+
+![image](https://user-images.githubusercontent.com/7553742/144617100-ed662dfa-0dbf-48f7-ba54-941e911f97a2.png)
 
 Keep in mind that this dataset is fundamentally sparse, sometimes illegible, and in places incomplete. Just because a visualization looks nice -- something Tableau is good at -- doesn't mean the visualization correlated with the quantitative truth of the database, much less the historical truth we have pieces of at best.
 
