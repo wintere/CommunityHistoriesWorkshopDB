@@ -44,7 +44,7 @@ A few basics that are important to understand:
   - **One-To-Many**: for a column (field) that has repetitive values
   - **Many-To-Many**: for a column (field) that has multiple values (in our case, also repetitive)
 
-**Examples**
+**Examples**  
 One To Many (Example: Nativity, containing the state in which the patient was born)
 - the nativity column is deduplicated, and the unique values are stored in a new table called 'nativity'
   - the nativity table has a column for 'id' and 'nativity'
@@ -66,7 +66,7 @@ Many To Many (Example: Occupation, containing the occupation of the patient)
 Why is this useful?
 - we can work with multivalue fields now (so data analysis and viz is much more accurate)!
 
-**Takeaways**
+**Takeaways**  
 - There is a table for every column that had repetitive values
 - Multivalue columns are complex, and it requires extra work to associate these fields with the main table data
 
@@ -74,15 +74,15 @@ Why is this useful?
 
 ### Database Views
 
-*A View is what we use to get a combined view of data across multiple tables (i.e. rejoining One To Many columns such as Nativity to a main column such as Admission, so that we see 'North Carolina' instead of '1')*
-*note - views don't include multivalue fields, those have to be joined separately
+*A View is what we use to get a combined view of data across multiple tables (i.e. rejoining One To Many columns such as Nativity to a main column such as Admission, so that we see 'North Carolina' instead of '1')*  
+*note - views don't include multivalue fields, those have to be joined separately*  
 
-The database has views that provide data from three contexts:
+The database has views that provide data from three contexts:  
 - The Admissions Ledger
 - The General Case Book
 - All Data (combined data from admissions ledger and general case book)
   
-For each of the contexts, there are three sets of data provided:
+For each of the contexts, there are three sets of data provided:  
 - All data (everything except multivalue fields)
   ```
   admission_main; general_case_book_main; all_data_main
@@ -96,28 +96,28 @@ For each of the contexts, there are three sets of data provided:
   admission_main_simple; general_case_book_main_simple; all_data_main_simple
   ```
 
-Think about what you're trying to look at - most likely, the Simple View will best one to view.
+Think about what you're trying to look at - most likely, the Simple View will best one to view.  
 
-### Database Tables
+### Database Tables  
 
-#### Main Tables
+#### Main Tables  
 
 **admission** - contains admission ledger data  
 **general_case_book** - contains general case book data  
 **patient** - contains opatient  
 
-#### Many To Many (for multivalue fields) Tables
+#### Many To Many (for multivalue fields) Tables  
 
 The following are used by both the admission and general_case_book database tables  
 **occupation**  
 **supposed_cause**  
 **form** note that this corresponds to form in admission, but diagnosis in general_case_book  
   
-The following are used by the admission table
+The following are used by the admission table  
 **intake_condition**  
 **final_condition**  
   
-The following are used by the general_case_book table
+The following are used by the general_case_book table  
 **bowels_and_digestion**  
 **sources_of_information**   
 **use_of_opium_liquors_tobacco**    
@@ -136,7 +136,7 @@ The following are used by both tables repeatedly
   
 The following are used by the admission table  
 **race**  
-**residence*  
+**residence**  
 **nativity**  
 **dementia_praecox_classification**  
   
