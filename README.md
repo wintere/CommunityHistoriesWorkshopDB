@@ -34,7 +34,7 @@ Proceed to one of the two access methods below. You will need to make sure you'r
 
 ## Learning More About Relational Databases, PostgreSQL
 
-If you're new to relational databases and would like to learn about relational databases in a classroom setting, consider enrolling in [INLS 523].
+If you're new to relational databases and would like to learn about relational databases in a classroom setting, consider enrolling in [INLS 523](https://sils.unc.edu/courses#523).
 
 If you would like to learn about SQL in order to write simple queries, I would recommend walking through [this set of interactive exercises](https://pgexercises.com/questions/basic/).
 
