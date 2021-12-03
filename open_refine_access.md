@@ -36,7 +36,10 @@ Populate each field as follows:
 ## Querying the Database ##
 ![image](https://user-images.githubusercontent.com/7553742/143794223-dbc7e82f-c997-4a0d-821b-20e0e98ec132.png)
 
-Once you've successfully connected, you will be prompted to write a SQL query representing the table(s) and rows you would like to view. If you're new to SQL, I would start with a general query that selects all possible fields from one of the following tables:
+Once you've successfully connected, you will be prompted to write a SQL query representing the table(s) and rows you would like to view. Before selecting a table to access, [read over the database documentation to get a sense of what data is available where](https://github.com/wintere/CommunityHistoriesWorkshopDB/blob/main/database_overview.md).
+
+If you're new to SQL, I would start with a general query that selects all possible fields from one of the following simplified views with join operations already applied:
+
 - admission_main: the entire transcribed contents of the admissions ledger CSV
 - admission_main_simple: the contents of the admissions ledger CSV with columns dedicated to tracking the transcription process, like the name of the person who transcribed each row removed. Recommended over *admission_main* for most uses.
 - general_case_book_main: the entire transcribed contents of the general casebook CSV
@@ -44,7 +47,7 @@ Once you've successfully connected, you will be prompted to write a SQL query re
 - all_data_main: everything, the admissions ledger joined with the general casebook. **WARNING: This is quite large and will load slowly**
 - all_data_main_simple: *all_data_main* with transcription related fields removed.
 
-For example, a query that selects all rows and columns from the simplified admissions ledger would look as follows.
+For example, a query that selects all rows and columns from the simplified admissions ledger would look as follows. With this query type, you can arbitrarily plug in a table name or view with a *;* to examine all the data in that table. 
 ```
 SELECT* FROM admission_simple;
 ```
@@ -55,15 +58,19 @@ FROM all_data_main
 WHERE admission_date_norm between '1861-03-12' and '1865-03-09';
 ```
 
-**SELECT**: required: followed by a list of fields (columns) available in the table in the FROM clause, to select all fields use *
-**FROM** required: followed by one (or more, if you're more knowledgable about SQL) tables
-**WHERE** optional: followed by a conditional statement about values within fields that must hold true for the rows returned
-**LIMIT** optional: followed by the maximium number of rows you want returned
-; required: indicates the end of the simple query
+**SELECT**: required: followed by a list of fields (columns) available in the table in the FROM clause, to select all fields use * <br>
+**FROM** required: followed by one (or more, if you're more knowledgable about SQL) tables or views <br>
+**WHERE** optional: followed by a conditional statement about values within fields that must hold true for the rows returned <br>
+**LIMIT** optional: followed by the maximium number of rows you want returned <br>
+; required: indicates the end of the simple query<br>
 
-Tip: I recommend doing a select* from table 
+To adjust your query or query something else, select the *Start Over* button at the top left corner of the results table. If you're not sure which fields are in which table I would recommend an initial query the below in order to get a sense of the precise field names, then write *Start Over* and write more specific query.
 
-To adjust your query or query something else, select the *Start Over* button at the top left corner of the results table.
+```
+SELECT *
+FROM admission
+LIMIT 1;
+```
 
 ![image](https://user-images.githubusercontent.com/7553742/143795405-a3f28e60-a630-47f6-bad9-c081774de778.png)
 
