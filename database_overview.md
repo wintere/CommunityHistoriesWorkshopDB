@@ -1,4 +1,4 @@
-## Dix Database Overview
+# Dix Database Overview
 
 TOC  
 - [Basics](#basics)
@@ -7,7 +7,7 @@ TOC
 - [Database Tables](#database-tables)
   
   
-### Basics    
+## Basics    
   
 What's in it?  
 - Admissions Ledger  
@@ -25,7 +25,7 @@ Who can help me with it?
 - Email our campus accounts (ndnihart, ewinter)  
   
   
-### Overview of database for non-technical audiences  
+## Overview of database for non-technical audiences  
   
 Admissions Ledger and General Dase Book -> transcribed into spreadsheets -> transformed into the database  
   
@@ -72,7 +72,7 @@ Why is this useful?
 
 
 
-### Database Views
+## Database Views
 
 *A View is what we use to get a combined view of data across multiple tables (i.e. rejoining One To Many columns such as Nativity to a main column such as Admission, so that we see 'North Carolina' instead of '1')*  
 *note - views don't include multivalue fields, those have to be joined separately*  
@@ -98,15 +98,15 @@ For each of the contexts, there are three sets of data provided:
 
 Think about what you're trying to look at - most likely, the Simple View will best one to view.  
 
-### Database Tables  
+## Database Tables  
 
-#### Main Tables  
+### Main Tables  
 
 **admission** - contains admission ledger data  
 **general_case_book** - contains general case book data  
 **patient** - contains opatient  
 
-#### Many To Many (for multivalue fields) Tables  
+### Many To Many (for multivalue fields) Tables  
 
 The following are used by both the admission and general_case_book database tables  
 **occupation**  
@@ -123,7 +123,7 @@ The following are used by the general_case_book table
 **use_of_opium_liquors_tobacco**    
   
   
-#### One To Many (for repetitive fields) Tables  
+### One To Many (for repetitive fields) Tables  
   
 The following are used by both the admission and general_case_book database tables  
 **transcriptionist**  
