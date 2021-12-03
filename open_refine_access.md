@@ -51,32 +51,16 @@ For example, a query that selects all rows and columns from the simplified admis
 ```
 SELECT* FROM admission_simple;
 ```
-Or, for a query to survey the patients admitted during the Civil War...
-```
-SELECT full_name_transcribed, admission_date_norm, sex, age_norm, residence, supposed_cause_of_attack_transcribed, form_transcribed
-FROM all_data_main 
-WHERE admission_date_norm between '1861-03-12' and '1865-03-09';
-```
+To adjust your query or query something else, select the *Start Over* button at the top left corner of the results table. If you're not sure which fields are in which table I would recommend an initial query the below in order to get a sense of the precise field names, then *Start Over* and write a more specific query.
 
-**SELECT**: required: followed by a list of fields (columns) available in the table in the FROM clause, to select all fields use * <br>
-**FROM** required: followed by one (or more, if you're more knowledgable about SQL) tables or views <br>
-**WHERE** optional: followed by a conditional statement about values within fields that must hold true for the rows returned <br>
-**LIMIT** optional: followed by the maximium number of rows you want returned <br>
-; required: indicates the end of the simple query<br>
 
 ![image](https://user-images.githubusercontent.com/7553742/144617603-2d14576c-4fd8-4795-93f5-e624253fa487.png)
-
-
-To adjust your query or query something else, select the *Start Over* button at the top left corner of the results table. If you're not sure which fields are in which table I would recommend an initial query the below in order to get a sense of the precise field names, then *Start Over* and write a more specific query.
 
 ```
 SELECT *
 FROM all_data_main
 LIMIT 1;
 ```
-
-![image](https://user-images.githubusercontent.com/7553742/143795405-a3f28e60-a630-47f6-bad9-c081774de778.png)
-
 
 Once you are satisfied with your query preview, select the *Create Project* button at the top right. You should now be able to sort, scroll, and explore the resulting data. 
 
