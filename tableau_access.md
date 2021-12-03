@@ -29,7 +29,7 @@ This sample workbook contains a simplified view of the data in the database, wit
 This sample workbook contains all view with all fields in the database.
 
 After clicking a *.twb* file, Tableau should open and prompt you for a connection password.
-Supply the username and password provided in your email or stored in the CHW Sharepoint drive.
+Supply the [username and password stored in the CHW SharePoint here](https://adminliveunc.sharepoint.com/:t:/r/sites/CommunityHistoriesWorkshop/Shared%20Documents/Database/dixdbreadonly_credentials.txt?csf=1&web=1&e=6ZcpEU). If you can't access the file, reach out to a CHW project member to get permissions.
 
 ![image](https://user-images.githubusercontent.com/7553742/143803991-ae519350-02a3-4a47-ad46-6e77d3927d2e.png)
 
