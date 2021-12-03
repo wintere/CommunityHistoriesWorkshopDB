@@ -38,4 +38,6 @@ If you're new to relational databases and would like to learn about relational d
 
 If you would like to learn about SQL in order to write simple queries, I would recommend walking through [this set of interactive exercises](https://pgexercises.com/questions/basic/).
 
-If you're an experienced SQL user and would like to learn about the PostgreSQL dialect, try [the official documentation](https://www.postgresql.org/docs/14/sql.html). To learn about the distribution and its implementation, consider reading [this textbook excerpt](https://www.db-book.com/online-chapters-dir/32.pdf).
+If you're an experienced SQL user and would like to learn about the PostgreSQL dialect, try [the official documentation](https://www.postgresql.org/docs/14/sql.html). 
+
+To learn about the PostgreSQL distribution and its implementation, consider reading [this textbook excerpt](https://www.db-book.com/online-chapters-dir/32.pdf).
