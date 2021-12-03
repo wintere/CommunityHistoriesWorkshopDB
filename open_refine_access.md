@@ -67,7 +67,7 @@ WHERE admission_date_norm between '1861-03-12' and '1865-03-09';
 ![image](https://user-images.githubusercontent.com/7553742/144617603-2d14576c-4fd8-4795-93f5-e624253fa487.png)
 
 
-To adjust your query or query something else, select the *Start Over* button at the top left corner of the results table. If you're not sure which fields are in which table I would recommend an initial query the below in order to get a sense of the precise field names, then *Start Over* and write more specific query.
+To adjust your query or query something else, select the *Start Over* button at the top left corner of the results table. If you're not sure which fields are in which table I would recommend an initial query the below in order to get a sense of the precise field names, then *Start Over* and write a more specific query.
 
 ```
 SELECT *
