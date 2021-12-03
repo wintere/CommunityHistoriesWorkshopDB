@@ -22,10 +22,10 @@ In order to factor the extremely complex and sparse data in the admissions ledge
 
 We recommend you access the data in Tableau using one of the *.twb* connection files in this repository. Download your connection file of choice from GitHub by clicking and saving the links and proceed.
 
-[*DixDatabaseOASISConnCombinedDatasetsSimpleData.twb*](https://github.com/downloads/wintere/CommunityHistoriesWorkshop/DixDatabaseOASISConnCombinedDatasetsSimpleData.twb)<br>
+<a href="https://raw.githubusercontent.com/wintere/CommunityHistoriesWorkshopDB/main/DixDatabaseOASISConnCombinedDatasetsSimpleData.twb" target="_blank" />DixDatabaseOASISConnCombinedDatasetsSimpleData.twb</a>
 This sample workbook contains a simplified view of the data in the database, with columns related to the transcription process removed. **RECOMMENDED**
 
-*DixDatabaseOASISConnCombinedDatasetsFullData.twb*<br>
+<a href="https://raw.githubusercontent.com/wintere/CommunityHistoriesWorkshopDB/main/DixDatabaseOASISConnCombinedDatasetsSimpleData.twb" target="_blank" />DixDatabaseOASISConnCombinedDatasetsFullData.twb</a>
 This sample workbook contains all view with all fields in the database.
 
 After clicking a *.twb* file, Tableau should open and prompt you for a connection password.
