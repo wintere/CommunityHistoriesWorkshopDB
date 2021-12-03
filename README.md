@@ -25,7 +25,6 @@ Once you're connected you should see a checkmarked/locked connection status in y
 
 ![image](https://user-images.githubusercontent.com/7553742/143873814-9257f1ae-2008-4831-b9bd-a94da0ec1f42.png)
 
-
 Proceed to one of the two access methods below. You will need to make sure you're connected to the campus VPN each time you access the database, regardless of which access method you choose.
 
 
@@ -33,3 +32,10 @@ Proceed to one of the two access methods below. You will need to make sure you'r
 1. If you would like to examine the database for purposes of data cleaning, browsing, or for performing SQL queries, we recommend using OpenRefine to access the database [using the following tutorial.](https://github.com/wintere/CommunityHistoriesWorkshopDB/blob/main/open_refine_access.md)
 2. If you would like to use the database to create visualizations, we recommend using the Tableau connector to access the data through Tableau [using the following tutorial instead](https://github.com/wintere/CommunityHistoriesWorkshopDB/blob/main/tableau_access.md).
 
+## Learning More About Relational Databases, PostgreSQL
+
+If you're new to relational databases and would like to learn about relational databases in a classroom setting, consider enrolling in [INLS 523].
+
+If you would like to learn about SQL in order to write simple queries, I would recommend walking through [this set of interactive exercises](https://pgexercises.com/questions/basic/).
+
+If you're an experienced SQL user and would like to learn about the PostgreSQL dialect, try [the official documentation](https://www.postgresql.org/docs/14/sql.html). To learn about the distribution and its implementation, consider reading [this textbook excerpt](https://www.db-book.com/online-chapters-dir/32.pdf).
