@@ -6,7 +6,7 @@ To install Tableau on your personal machine, you will need to complete the Table
 
 Once your identity is verified, you should receive an activation with links to download Tableau and a product code.
 
-%he Tableau developers have helpfully [provided very thorough installation instructions](https://help.tableau.com/current/desktopdeploy/en-us/desktop_deploy_download_and_install.htm#tableau-desktop). Skip to the Tableau Desktop section when the installer downloaded and have the product code on hand.
+The Tableau developers have helpfully [provided very thorough installation instructions](https://help.tableau.com/current/desktopdeploy/en-us/desktop_deploy_download_and_install.htm#tableau-desktop). Skip to the Tableau Desktop section when the installer downloaded and have the product code on hand.
 
 ## Install PostgreSQL Drivers ##
 
@@ -20,9 +20,9 @@ Follow the driver installation instructions, then proceed.
 
 In order to factor the extremely complex and sparse data in the admissions ledger and especially the general casebook into many-to-many and many-to-one relationships that express the loosely structed source data, the data has been broken into several tables. The relationships between tables have been carefully organized in Tableau and saved into a file by Nate.
 
-We recommend you access the data in Tableau using one of the *.twb* connection files in this repository. Download your connection file of choice from GitHub and proceed.
+We recommend you access the data in Tableau using one of the *.twb* connection files in this repository. Download your connection file of choice from GitHub by clicking and saving the links and proceed.
 
-*DixDatabaseOASISConnCombinedDatasetsSimpleData.twb*<br>
+[*DixDatabaseOASISConnCombinedDatasetsSimpleData.twb*](https://github.com/downloads/wintere/CommunityHistoriesWorkshop/DixDatabaseOASISConnCombinedDatasetsSimpleData.twb)<br>
 This sample workbook contains a simplified view of the data in the database, with columns related to the transcription process removed. **RECOMMENDED**
 
 *DixDatabaseOASISConnCombinedDatasetsFullData.twb*<br>
