@@ -22,7 +22,7 @@ You may already have Java installed. To verify this, open a terminal using the T
 ## Accessing the Database ##
 In the Create Project Tab, select *Database* from the *Get Data From* menu.
 <img src="https://user-images.githubusercontent.com/7553742/143791548-9e9a67e9-5508-4e8d-bef5-a29c3298dc09.png " width="700"> <br>
-Populate each field as follows:
+Populate each field from the [credentials stored on SharePoint](https://adminliveunc.sharepoint.com/:t:/r/sites/CommunityHistoriesWorkshop/Shared%20Documents/Database/dixdbreadonly_credentials.txt?csf=1&web=1&e=6ZcpEU) as follows:
 - Name: This is your name for the connection settings. It can be anything you choose, as long as it's short and doesn't have spaces or special characters in it. I used *dix-db*.
 - Type: Because the database is a [PostgreSQL](https://www.postgresql.org/about/) relational database, this needs to be set to PostgreSQL.
 - Host: This is the web address or hostname of the database server. This was emailed to you and is stored on Sharepoint as well.
