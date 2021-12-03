@@ -55,6 +55,14 @@ FROM all_data_main
 WHERE admission_date_norm between '1861-03-12' and '1865-03-09';
 ```
 
+**SELECT**: required: followed by a list of fields (columns) available in the table in the FROM clause, to select all fields use *
+**FROM** required: followed by one (or more, if you're more knowledgable about SQL) tables
+**WHERE** optional: followed by a conditional statement about values within fields that must hold true for the rows returned
+**LIMIT** optional: followed by the maximium number of rows you want returned
+; required: indicates the end of the simple query
+
+Tip: I recommend doing a select* from table 
+
 To adjust your query or query something else, select the *Start Over* button at the top left corner of the results table.
 
 ![image](https://user-images.githubusercontent.com/7553742/143795405-a3f28e60-a630-47f6-bad9-c081774de778.png)
