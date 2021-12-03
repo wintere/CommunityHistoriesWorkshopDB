@@ -100,15 +100,60 @@ Think about what you're trying to look at - most likely, the Simple View will be
 
 ### Database Tables
 
+#### Main Tables
+
+**admission** - contains admission ledger data  
+**general_case_book** - contains general case book data  
+**patient** - contains opatient  
+
 #### Many To Many (for multivalue fields) Tables
 
-
-#### One To Many (for repetitive fields) Tables
-
-
-
-
-
+The following are used by both the admission and general_case_book database tables  
+**occupation**  
+**supposed_cause**  
+**form** note that this corresponds to form in admission, but diagnosis in general_case_book  
+  
+The following are used by the admission table
+**intake_condition**  
+**final_condition**  
+  
+The following are used by the general_case_book table
+**bowels_and_digestion**  
+**sources_of_information**   
+**use_of_opium_liquors_tobacco**    
+  
+  
+#### One To Many (for repetitive fields) Tables  
+  
+The following are used by both the admission and general_case_book database tables  
+**transcriptionist**  
+**civil_condition**  
+**sex**  
+  
+The following are used by both tables repeatedly  
+**confidence** (for transcription confidence columns)  
+**YNUNK** (for yes/no/some/unknown fields)  
+  
+The following are used by the admission table  
+**race**  
+**residence*  
+**nativity**  
+**dementia_praecox_classification**  
+  
+The following are used by the general_case_book table:  
+**religion**  
+**intellectual_capacity_in_health**  
+**habits**  
+**temperament**  
+**muscular_development**  
+**features**  
+**general_physical_condition_on_admission**  
+**appetite**  
+**education, education_years**    
+**duration_range**  
+**state**  
+**city**  
+**relation**  
 
 
 
