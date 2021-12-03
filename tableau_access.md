@@ -41,9 +41,9 @@ Keep in mind that this dataset is fundamentally sparse, sometimes illegible, and
 
 ## Learning About Relational Databases and Tableau ##
 
-If you would like to learn more about relational databases and SQL in a classroom setting, I would recommend SILS students enroll in INLS 523: Introduction to Database Concepts.  
+If you would like to learn more about visualization, how to apply visualizations, and to learn about Tableau in a classroom setting, consider enrolling INLS 541: Information Visualization (no programming required) or a similar data visualization course.
 
-If you have background knowledge of databases but are new to Tableau, Tableau has [a guide for exploring the newly connected data](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-drag.htm).
+If you have background knowledge of databases but are new to Tableau and want to teach yourself, Tableau has [a guide for exploring the newly connected data](https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-drag.htm).
 
 ## Troubleshooting ##
 
