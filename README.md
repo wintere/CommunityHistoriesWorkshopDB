@@ -1,6 +1,9 @@
 # CommunityHistoriesWorkshopDB
 A README and helper scripts for the access and generation of data from the Community Histories Workshop asylum records project.
 
+## About the Database
+If this is your first time accessing the database, [skim over the database overview](https://github.com/wintere/CommunityHistoriesWorkshopDB/blob/main/database_overview.md) to get a sense of what tables and views are available. Keep this information open in another tab, as you will need to return to it when querying the database through either OpenRefine/SQL or Tableau.
+
 ## Setup
 The CHW database of Dix records is hosted by [OASIS](https://oasis.unc.edu/) at UNC. It can only be accessed from eduroam on campus or through the campus VPN. In order to install the UNC VPN client on your machine, follow the tutorial for your operating system (Mac, Windows, Ubuntu) [here](https://help.unc.edu/sp?id=kb_article_view&sysparm_article=KB0010155&sys_kb_id=719db1eddb3fa41070551ffa689619eb).
 
@@ -29,3 +32,4 @@ Proceed to one of the two access methods below. You will need to make sure you'r
 ## Decide How You Would Like to Access The Database
 1. If you would like to examine the database for purposes of data cleaning, browsing, or for performing SQL queries, we recommend using OpenRefine to access the database [using the following tutorial.](https://github.com/wintere/CommunityHistoriesWorkshopDB/blob/main/open_refine_access.md)
 2. If you would like to use the database to create visualizations, we recommend using the Tableau connector to access the data through Tableau [using the following tutorial instead](https://github.com/wintere/CommunityHistoriesWorkshopDB/blob/main/tableau_access.md).
+
