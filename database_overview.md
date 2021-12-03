@@ -1,13 +1,13 @@
 ## Dix Database Overview
 
 TOC  
-- Basics
-- Overview of database for non-technical audiences
-- Database Views
-- Database Tables
-
-
-### Basics  
+- [Basics](#basics)
+- [Overview of database for non-technical audiences](#overview-of-database-for-non-technical-audiences)
+- [Database Views](#database-views)
+- [Database Tables](#database-tables)
+  
+  
+### Basics    
   
 What's in it?  
 - Admissions Ledger  
